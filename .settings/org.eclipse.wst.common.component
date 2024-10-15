@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="7-file-upload-jekkilekki">
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <dependent-module archiveName="commons-fileupload2-core-2.0.0-M2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/COMPUTER/OneDrive/바탕 화면/java/7-file-upload-jekkilekki/src/main/webapp/WEB-INF/lib/commons-fileupload2-core-2.0.0-M2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-io-2.17.0.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/COMPUTER/OneDrive/바탕 화면/java/7-file-upload-jekkilekki/src/main/webapp/WEB-INF/lib/commons-io-2.17.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="7-file-upload-jekkilekki"/>
+        <property name="java-output-path" value="/7-file-upload-jekkilekki/build/classes"/>
+    </wb-module>
+</project-modules>
